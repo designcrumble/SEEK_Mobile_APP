@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:scrollbars="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_register"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <!--Put form controls here-->
+
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="396dp"
+            android:layout_height="48dp"
+            android:text="@string/feedbacktitle"
+            android:textColor="#fff"
+            android:textSize="10pt"
+            android:textAlignment="center">
+        </TextView>
+
+        <!-- Item Name here -->
+
+        <EditText
+            android:id="@+id/EditTextName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="@string/feedbackname"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
+
+
+        <!--Category of the item being reported-->
+        <Spinner
+            android:id="@+id/SpinnerFeedbackType"
+            android:layout_height="87dp"
+            android:prompt="@string/feedbacktype"
+            android:layout_width="fill_parent"
+            android:entries="@array/feedbacktypelist"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:background="@color/input_register_bg" />
+
+        <!--Description-->
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/EditTextDate"
+            android:hint="Date"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:background="@color/input_register_bg"
+            android:layout_gravity="top" />
+
+        <EditText
+            android:id="@+id/EditTextFeedbackBody"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/feedbackbody"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:textColor="@color/input_register"
+            android:background="@color/input_register_bg"
+
+            android:layout_gravity="top" />
+
+        <CheckBox
+            android:id="@+id/CheckBoxResponse"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/feedbackresponse"
+            android:layout_width="fill_parent"
+            android:textColor="@color/input_register" />
+
+
+        <Button
+            android:id="@+id/ButtonSendFeedback"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dip"
+            android:textSize="15sp"
+            android:background="@color/btn_login"
+            android:text="@string/feedbackbutton"
+            android:textColor="@color/btn_login_bg" />
+
+
+
+    </LinearLayout>
+</ScrollView>
