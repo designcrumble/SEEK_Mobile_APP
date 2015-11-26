@@ -1,0 +1,47 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/seek_bg"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+
+    >
+
+    <!--  Sample Dashboard screen with Two buttons -->
+    <Button
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dip"
+        android:background="@drawable/logo_mark"
+        android:textColor="@color/white"
+        />
+
+    <!--  Button to view all products screen -->
+    <Button
+        android:id="@+id/btnViewProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dip"
+        android:text="SIGN IN"
+        android:background="@color/btn_login"
+        android:textColor="@color/white"
+        />
+
+
+
+    <!--  Button to register a new user -->
+    <Button
+        android:id="@+id/btnCreateProduct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/btn_login_bg"
+        android:text="Register"
+        android:textColor="@color/btn_login" />
+
+
+</LinearLayout>

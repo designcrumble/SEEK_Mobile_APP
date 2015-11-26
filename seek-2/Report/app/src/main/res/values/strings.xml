@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Report</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="feedbacktype1">Valuable</string>
+    <string name="feedbacktype2">RFID</string>
+    <string name="feedbacktype3">Books</string>
+    <string name="feedbacktype4">Personal Belongings</string>
+    <string name="feedbacktitle">Report an Item here</string>
+    <string name="feedbackname">Enter name of the Item</string>
+    <string name="feedbackemail">Enter email address</string>
+    <string name="feedbackbody">Description</string>
+    <string name="feedbackbutton">Report</string>
+    <string name="feedbackresponse">I found this item</string>
+    <string name="feedbacktype">Choose a category</string>
+
+</resources>

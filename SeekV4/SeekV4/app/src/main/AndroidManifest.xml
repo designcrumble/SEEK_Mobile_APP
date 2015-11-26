@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jackrusty.seekv2" >
+
+    <uses-sdk android:minSdkVersion="9" />
+
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <item name="android:windowActionBar">false</item>
+                <item name="android:windowTitleSize">0dp</item>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Add User Activity -->
+        <activity
+            android:name=".Register"
+            android:label="Sign up" >
+        </activity>
+
+        <!-- Edit Product Activity -->
+        <activity
+            android:name=".SignIn"
+            android:label="Sign in" >
+        </activity>
+        <activity
+            android:name=".Newsfeed"
+            android:label="Newsfeed" >
+        </activity>
+        <activity
+            android:name=".ViewItemDetails"
+            android:label="Report details" >
+        </activity>
+        <activity
+            android:name=".Report"
+            android:label="Report" >
+        </activity>
+        <activity
+            android:name=".AdminSignIn"
+            android:label="Admin" >
+        </activity>
+        <activity
+            android:name=".Newsfeed_Admin"
+            android:label="Admin" >
+        </activity>
+        <activity
+            android:name=".VerifyReport"
+            android:label="Verify" >
+        </activity>
+    </application>
+
+</manifest>

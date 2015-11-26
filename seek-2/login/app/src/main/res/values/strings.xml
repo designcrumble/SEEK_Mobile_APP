@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Seek</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_report">Report</string>
+    <string name="feedbacktype1">Valuable</string>
+    <string name="feedbacktype2">RFID</string>
+    <string name="feedbacktype3">Books</string>
+    <string name="feedbacktype4">Personal Belongings</string>
+    <string name="feedbacktitle">Report an Item here</string>
+    <string name="feedbackname">Enter name of the Item</string>
+    <string name="feedbackemail">Enter email address</string>
+    <string name="feedbackbody">Description</string>
+    <string name="feedbackbutton">Report</string>
+    <string name="feedbackresponse">I Found this item</string>
+    <string name="feedbacktype">Choose a category</string>
+    <string name="feedbackresponselost">I Lost this item</string>
+</resources>
